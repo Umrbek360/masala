@@ -69,7 +69,7 @@ print(f"ijara haqi , {per_month} , ga teng: ")
 d = int(input("masofa kiriting (km)da: "))
 v = int(input("tezlik  kiriting (km/soat)da: "))
 time = d / v
-print(f":{time}")
+print(f"soat , {time} , ga teng:")
 
 #3. Yo‘lovchilarga chiptani taqsimlash
 seats = int(input("o'rindiqlar sonni  kiriting: "))
@@ -121,3 +121,4 @@ bill = float(input("Hisob-kitob summasi: "))
 tip = bill * 0.10
 total = bill + tip
 print(f"Tip: {tip}, Jami to‘lov: {total}")
+
